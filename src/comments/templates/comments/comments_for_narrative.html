@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block title %}Commetns{% endblock %}
+
+{% block content %}
+{% for comment in object_list %}
+<div>
+<div>{{ narrative.text }}</div>
+</div>
+{% endfor %}
+{% endblock %}
