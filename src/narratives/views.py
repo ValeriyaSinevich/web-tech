@@ -14,7 +14,8 @@ class NarrativesList(ListView):
 
 class Narrative_detail(DetailView):
     model = Comment
-    template_name = "comments/comments_for_narrative.html"
-    
+    template_name = "narratives/comments_for_narrative.html"
+
+
 
 
